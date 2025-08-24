@@ -135,6 +135,8 @@ cd SoilSense
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+python dataset.py
+python model.py
 streamlit run app.py
 ```
 
